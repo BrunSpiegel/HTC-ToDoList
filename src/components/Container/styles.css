@@ -1,0 +1,7 @@
+.container {
+  width: 60vw;
+  height: 80vh;
+  border-radius: 8px;
+  box-shadow: 0 0 6px #0000001A;
+  background-color: #FFFFFF;
+}
