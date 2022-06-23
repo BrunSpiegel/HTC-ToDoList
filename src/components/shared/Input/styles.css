@@ -1,0 +1,32 @@
+.input {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  background-color: #EFF3F8;
+  width: 100%;
+  border: 1px solid #EFF3F8;
+  transition: 300ms;
+  height: 40px;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.input:focus-within {
+  border: 1px solid #CCCCCC;
+}
+
+.input-field {
+  background-color: transparent;
+  border: none;
+  outline: transparent;
+  padding-left: 16px;
+  width: 100%;
+}
+
+.input-field::placeholder {
+  color: #909EB2;
+}
+
+.input-field--no-icon {
+  padding: 0;
+}
