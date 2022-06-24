@@ -7,6 +7,7 @@ export const Container = (props) => {
   _container.classList.add('container')
 
   _container.append(props.children)
+  _container.append(props.button)
   
   return _container
 }

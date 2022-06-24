@@ -1,10 +1,11 @@
 import { Container } from './components/Container/index.js'
 import { Input } from './components/shared/Input/index.js'
 import { Icon } from './components/shared/icon/index.js'
+import { Button } from './components/shared/Button/index.js'
 
 const $root = document.querySelector('#root')
 
-const icon = Icon('plus')
+const icon = Icon()
 
 const input = Input({
   icon: 'search',
@@ -12,6 +13,16 @@ const input = Input({
   width: '500px'
 })
 
-const container = Container({children: input })
+const button = Button({
+  icon: 'whitePlus'
+})
+
+const container = Container({
+  children: input,
+  button: button,
+  name: 'Olá'
+
+})
+
 
 $root.appendChild(container)
