@@ -1,5 +1,6 @@
 import { importCss } from '../../../modules/importCss/index.js'
 import { Icon } from '../icon/index.js'
+import { Button } from '../Button/index.js'
 
 importCss('./components/shared/Input/styles.css')
 

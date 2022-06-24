@@ -14,7 +14,9 @@ const input = Input({
 })
 
 const button = Button({
-  icon: 'whitePlus'
+  icon: 'whitePlus',
+  width: '40px',
+  backgroundColor: '#0077EF'
 })
 
 const container = Container({
