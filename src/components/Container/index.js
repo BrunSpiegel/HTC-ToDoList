@@ -6,8 +6,7 @@ export const Container = (props) => {
   const _container = document.createElement('section')
   _container.classList.add('container')
 
-  _container.append(props.children)
-  _container.append(props.button)
+  _container.append(...props.children)
   
   return _container
 }

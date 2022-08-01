@@ -16,15 +16,10 @@ const input = Input({
 const button = Button({
   icon: 'whitePlus',
   width: '40px',
-  backgroundColor: '#0077EF'
+  backgroundColor: '#0077EF',
 })
 
-const container = Container({
-  children: input,
-  button: button,
-  name: 'Olá'
-
-})
+const container = Container({children: [input, button]})
 
 
 $root.appendChild(container)
